@@ -1,0 +1,6 @@
+{
+  "name": "Talent International Academy, Abuja",
+  "description": "Talent International Academy Abuja — conventional education, Qur'anic memorization, Arabic and Islamic studies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

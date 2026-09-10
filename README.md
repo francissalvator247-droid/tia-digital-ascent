@@ -3,8 +3,10 @@
 Build TIA DIGITAL SCHOOL ERP for Talent International Academy, Abuja (reference: https://tiaabuja.com/). Complete foundation UI/UX prototype using mock/demo data only (no live Supabase, auth, or payment backend yet).
 
 Include two integrated sections:
+
 1. Public School Website: Modern premium Nigerian private school aesthetic (Navy blue #0A192F/deep navy, pure white, warm gold accents #D4AF37, subtle emerald green touches). Pages: Home, About, Academics (Early Years, Primary, Secondary, Special Education, Islamiyya), Admissions, Student Life, News & Events, Gallery, Contact, Portal Login. Hero: "Empowering Student Knowledge Through Conventional Education, Qur’anic Memorization, Arabic & Islamic Studies" with CTAs: Apply for Admission, Explore TIA, Portal Login.
 2. Private School ERP Portal:
+
 - Role switcher to easily test roles: Principal, Admin, Teacher, Accountant, Parent, Student.
 - Principal Dashboard: Key KPI cards (Students, Teachers, Classes, Today's Attendance, Pending Approvals, Upcoming Exams, Outstanding Fees), charts (Population, Attendance, Academic, Fees), and recent activity timeline.
 - Admin Sidebar & Views: Dashboard, Students (with comprehensive Student Profile modal/view: Photo, bio, academic history, attendance, results, fees tabs), Admissions, Classes, Teachers, Subjects, Attendance, Exams, Results, Report Cards, Fees & Finance, Approvals, Audit Logs, Settings.
