@@ -6,12 +6,12 @@
 export const SCHOOL = {
   name: "Talent International Academy",
   shortName: "TIA",
-  motto: "Knowledge, Character, Faith",
+  motto: "Learning & Morality",
   tagline:
     "Empowering Student Knowledge Through Conventional Education, Qur'anic Memorization, Arabic & Islamic Studies",
-  address: "Plot 214, Airport Road, Lugbe, Abuja, FCT",
-  phone: "+234 803 000 1122",
-  altPhone: "+234 705 411 8890",
+  address: "No 1 Talent Academy Street, Off Arab Road Kubwa, Abuja",
+  phone: "+234 8032 768 117",
+  altPhone: "+2348069418980",
   email: "info@tiaabuja.com",
   website: "tiaabuja.com",
   session: "2025/2026",
