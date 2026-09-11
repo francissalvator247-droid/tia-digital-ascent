@@ -231,7 +231,7 @@ export function AdmissionsView({ onNavigate, onOpenPortal }: AdmissionsViewProps
           <div className="p-4 bg-navy-deep/5 rounded-lg border border-navy/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-muted-foreground">
             <div>
               <span className="font-bold text-navy-deep">Optional Services:</span> School Bus
-              Shuttle (₦45,000 – ₦70,000 based on route across Lugbe/Airport Rd/Kubwa), Hot Lunch
+              Shuttle (₦45,000 – ₦70,000 based on route across Kubwa/Dutse/Gwarinpa), Hot Lunch
               Scheme (₦35,000 per term).
             </div>
             <div className="text-navy font-semibold shrink-0">

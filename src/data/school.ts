@@ -1623,7 +1623,7 @@ export const initialNotifications: ErpNotification[] = [
     id: "notif-1",
     title: "First Term 2025/2026 Resumption Welcome",
     message:
-      "Welcome to the 2025/2026 Academic Session at TIA Lugbe Campus. Daily morning assemblies commence promptly at 7:45 AM.",
+      "Welcome to the 2025/2026 Academic Session at TIA Kubwa Campus. Daily morning assemblies commence promptly at 7:45 AM.",
     category: "Announcement",
     targetRoles: ["all"],
     sender: "Dr. Aisha Bello",

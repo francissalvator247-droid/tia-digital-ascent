@@ -52,7 +52,7 @@ export function PrincipalDashboardTab({ onNavigateTab }: PrincipalDashboardTabPr
           </h2>
           <p className="text-white/80 text-xs sm:text-sm">
             Principal & Chief Executive · Session: <strong>{SCHOOL.session}</strong> ({SCHOOL.term})
-            · Lugbe Campus, Abuja.
+            · Kubwa Campus, Abuja.
           </p>
         </div>
 

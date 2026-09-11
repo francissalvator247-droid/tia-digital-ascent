@@ -97,7 +97,7 @@ export function AboutView({ onNavigate }: AboutViewProps) {
           </h1>
           <p className="text-white/80 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
             Founded with a clear mandate: to deliver uncompromising 21st-century academic rigor
-            hand-in-hand with authentic Qur'anic scholarship and moral rectitude in Lugbe, Abuja.
+            hand-in-hand with authentic Qur'anic scholarship and moral rectitude in Kubwa, Abuja.
           </p>
         </div>
       </div>
