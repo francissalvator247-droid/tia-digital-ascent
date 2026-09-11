@@ -530,7 +530,7 @@ export function ErpProvider({ children }: { children: ReactNode }) {
             guardian: app.parentName,
             relationship: "Guardian",
             guardianPhone: app.phone,
-            address: app.address || "Airport Road, Lugbe, Abuja",
+            address: app.address || "Off Arab Road, Kubwa, Abuja",
             house: ["Zamfara", "Kaduna", "Kano", "Sokoto"][studentSeq % 4]!,
             status: "Active",
             admittedOn: now,

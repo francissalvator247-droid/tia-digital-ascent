@@ -27,7 +27,7 @@ export function GalleryView({ onNavigate }: GalleryViewProps) {
     {
       src: campusImg,
       title: "Main Campus Grounds & Administration",
-      desc: "Our purpose-built modern learning facility located on Airport Road, Lugbe, Abuja.",
+      desc: "Our purpose-built modern learning facility off Arab Road, Kubwa, Abuja.",
       tag: "Campus",
     },
     {
@@ -92,7 +92,7 @@ export function GalleryView({ onNavigate }: GalleryViewProps) {
           </h1>
           <p className="text-white/80 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
             Take a glimpse into the everyday moments of learning, faith, discovery, and friendship
-            across our Lugbe, Abuja campus.
+            across our Kubwa, Abuja campus.
           </p>
         </div>
       </div>

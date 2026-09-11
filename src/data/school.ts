@@ -6,12 +6,12 @@
 export const SCHOOL = {
   name: "Talent International Academy",
   shortName: "TIA",
-  motto: "Knowledge, Character, Faith",
+  motto: "Learning & Morality",
   tagline:
     "Empowering Student Knowledge Through Conventional Education, Qur'anic Memorization, Arabic & Islamic Studies",
-  address: "Plot 214, Airport Road, Lugbe, Abuja, FCT",
-  phone: "+234 803 000 1122",
-  altPhone: "+234 705 411 8890",
+  address: "No 1 Talent Academy Street, Off Arab Road Kubwa, Abuja",
+  phone: "+234 8032 768 117",
+  altPhone: "+2348069418980",
   email: "info@tiaabuja.com",
   website: "tiaabuja.com",
   session: "2025/2026",
@@ -1623,7 +1623,7 @@ export const initialNotifications: ErpNotification[] = [
     id: "notif-1",
     title: "First Term 2025/2026 Resumption Welcome",
     message:
-      "Welcome to the 2025/2026 Academic Session at TIA Lugbe Campus. Daily morning assemblies commence promptly at 7:45 AM.",
+      "Welcome to the 2025/2026 Academic Session at TIA Kubwa Campus. Daily morning assemblies commence promptly at 7:45 AM.",
     category: "Announcement",
     targetRoles: ["all"],
     sender: "Dr. Aisha Bello",

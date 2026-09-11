@@ -188,7 +188,7 @@ export function HomeView({ onNavigate, onOpenPortal }: HomeViewProps) {
                     <span>Abuja FCT Accredited</span>
                   </div>
                   <p className="text-xs sm:text-sm text-white/85 mt-1 leading-relaxed">
-                    Purpose-built safe campus located at Plot 214 Airport Road, Lugbe.
+                    Purpose-built safe campus at No 1 Talent Academy Street, Off Arab Road Kubwa.
                   </p>
                 </div>
               </Reveal>

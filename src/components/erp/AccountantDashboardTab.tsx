@@ -60,7 +60,7 @@ export function AccountantDashboardTab({ onNavigateTab }: AccountantDashboardTab
           </h2>
           <p className="text-white/80 text-xs sm:text-sm">
             Chief Accountant & Bursar · Session: <strong>{SCHOOL.session}</strong> ({SCHOOL.term}) ·
-            Lugbe Campus, Abuja.
+            Kubwa Campus, Abuja.
           </p>
         </div>
 

@@ -86,7 +86,7 @@ export function ContactView({ onNavigate }: ContactViewProps) {
                   <div className="font-bold text-navy-deep">Campus Address</div>
                   <p className="text-muted-foreground mt-0.5">{SCHOOL.address}</p>
                   <p className="text-[11px] text-muted-foreground mt-1">
-                    Landmark: Directly along Airport Road corridor, Lugbe Federal Housing Extension.
+                    Landmark: Off Arab Road, Kubwa, Abuja.
                   </p>
                 </div>
               </div>
@@ -98,12 +98,11 @@ export function ContactView({ onNavigate }: ContactViewProps) {
                 <div>
                   <div className="font-bold text-navy-deep">Phone Lines</div>
                   <p className="text-muted-foreground mt-0.5">
-                    Admissions:{" "}
+                    Telephone:{" "}
                     <span className="font-semibold text-foreground">{SCHOOL.phone}</span>
                   </p>
                   <p className="text-muted-foreground">
-                    Admin Desk:{" "}
-                    <span className="font-semibold text-foreground">{SCHOOL.altPhone}</span>
+                    Mobile: <span className="font-semibold text-foreground">{SCHOOL.altPhone}</span>
                   </p>
                 </div>
               </div>
@@ -141,17 +140,17 @@ export function ContactView({ onNavigate }: ContactViewProps) {
                   <span>Campus Location Map</span>
                 </div>
                 <span className="text-[10px] bg-emerald/20 text-emerald font-semibold px-2 py-0.5 rounded">
-                  Lugbe District
+                  Kubwa District
                 </span>
               </div>
               <div className="h-44 rounded-lg bg-muted/70 flex flex-col items-center justify-center text-center p-4 border border-dashed border-border">
                 <MapPin className="w-8 h-8 text-gold mb-2" />
                 <div className="font-bold text-xs text-navy-deep">Talent International Academy</div>
                 <div className="text-[11px] text-muted-foreground max-w-xs mt-1">
-                  Plot 214, Airport Road, Lugbe, Abuja, Federal Capital Territory
+                  No 1 Talent Academy Street, Off Arab Road Kubwa, Abuja
                 </div>
                 <div className="mt-3 text-[11px] bg-navy text-white px-3 py-1 rounded font-medium">
-                  Easily accessible from Nnamdi Azikiwe International Airport & City Gate
+                  Easily accessible from Arab Road and the Kubwa Expressway
                 </div>
               </div>
             </div>
