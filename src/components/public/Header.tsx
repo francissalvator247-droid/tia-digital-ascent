@@ -66,7 +66,7 @@ export function Header({ currentPage, onNavigate, onOpenPortal }: HeaderProps) {
           <div className="flex flex-wrap items-center justify-center sm:justify-start gap-4 text-xs font-medium">
             <span className="inline-flex items-center gap-1.5">
               <MapPin className="w-3.5 h-3.5 text-gold shrink-0" />
-              <span>Airport Road, Lugbe, Abuja, FCT</span>
+              <span>Off Arab Road, Kubwa, Abuja, FCT</span>
             </span>
             <span className="hidden md:inline-flex items-center gap-1.5">
               <Phone className="w-3.5 h-3.5 text-gold shrink-0" />
@@ -106,15 +106,20 @@ export function Header({ currentPage, onNavigate, onOpenPortal }: HeaderProps) {
             className="flex items-center gap-3 text-left group focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-lg"
             aria-label="Talent International Academy - Home"
           >
-            <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-gold via-gold-soft to-emerald flex items-center justify-center shadow-md group-hover:scale-105 transition-transform shrink-0">
-              <GraduationCap className="w-6 h-6 sm:w-7 sm:h-7 text-navy-deep" />
+            <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-white flex items-center justify-center shadow-md group-hover:scale-105 transition-transform shrink-0 p-1">
+              <img
+                src={tiaLogo.url}
+                alt="Talent International Academy crest"
+                className="w-full h-full object-contain object-left"
+                style={{ objectPosition: "left center", transform: "scale(2.9)" }}
+              />
             </div>
             <div>
               <div className="font-display font-extrabold text-lg sm:text-2xl tracking-tight leading-none text-white group-hover:text-gold transition-colors">
                 Talent International Academy
               </div>
               <p className="text-[11px] sm:text-xs text-white/80 tracking-wider uppercase font-semibold mt-1">
-                Abuja · Knowledge · Character · Faith
+                Abuja · Learning &amp; Morality
               </p>
             </div>
           </button>
