@@ -1,6 +1,7 @@
-import { GraduationCap, Mail, Phone, MapPin, Clock, ShieldCheck, Heart } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, ShieldCheck } from "lucide-react";
 import { SCHOOL } from "@/data/school";
 import type { PublicPage } from "./Header";
+import tiaCrest from "@/assets/tia-crest.png.asset.json";
 
 interface FooterProps {
   onNavigate: (page: PublicPage) => void;
@@ -15,8 +16,12 @@ export function Footer({ onNavigate, onOpenPortal }: FooterProps) {
           {/* Col 1: Identity */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-gold to-emerald flex items-center justify-center">
-                <GraduationCap className="w-6 h-6 text-navy-deep" />
+              <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center p-0.5">
+                <img
+                  src={tiaCrest.url}
+                  alt="Talent International Academy crest"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h3 className="font-display font-bold text-lg text-white">TIA Abuja</h3>

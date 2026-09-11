@@ -13,6 +13,7 @@ import {
 import { SCHOOL } from "@/data/school";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
+import tiaCrest from "@/assets/tia-crest.png.asset.json";
 
 export type PublicPage =
   | "home"
@@ -108,10 +109,9 @@ export function Header({ currentPage, onNavigate, onOpenPortal }: HeaderProps) {
           >
             <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-white flex items-center justify-center shadow-md group-hover:scale-105 transition-transform shrink-0 p-1">
               <img
-                src={tiaLogo.url}
+                src={tiaCrest.url}
                 alt="Talent International Academy crest"
-                className="w-full h-full object-contain object-left"
-                style={{ objectPosition: "left center", transform: "scale(2.9)" }}
+                className="w-full h-full object-contain"
               />
             </div>
             <div>
